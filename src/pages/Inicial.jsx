@@ -9,7 +9,7 @@ function Inicial() {
     <div className="bg-[#222061] flex flex-col justify-center items-center max-w-[1000px] w-full min-h-[500px] mx-auto mt-50 rounded-2xl shadow-lg p-6">
       {/* Logo e Título */}
       <div className="flex flex-col sm:flex-row items-center gap-2 text-center sm:text-left">
-        <img className="w-[50px]" src="./src/assets/Vector.png" alt="Logo" />
+        <img className="w-[50px]" src="/assets/Vector.png" alt="Logo" />
         <h1 className="text-white text-lg md:text-xl lg:text-2xl font-semibold">
           Bem-vindo ao site do Inova Maranhão
         </h1>
@@ -23,7 +23,7 @@ function Inicial() {
       {/* Imagens organizadas */}
       <div className="relative w-full flex justify-center mt-10">
         <img className="w-[80px] sm:w-[100px] absolute left-4 sm:left-10 bottom-[-100px] hidden sm:block" src="/assets/Camada_1.png" alt="Imagem 1" />
-        <img className="w-[120px] sm:w-[150px] absolute right-4 sm:right-10 top-[-300px] hidden sm:block" src="./src/assets/Camada_2.png" alt="Imagem 2" />
+        <img className="w-[120px] sm:w-[150px] absolute right-4 sm:right-10 top-[-300px] hidden sm:block" src="/assets/Camada_2.png" alt="Imagem 2" />
       </div>
 
       {/* Botão de Envio */}

@@ -192,7 +192,7 @@ function Home() {
     <div className='bg-white mt-15 mx-auto flex flex-col w-150 rounded-lg '>
       <header className='mx-10 mt-5 ' >
         <div className='flex gap-2 mb-5  '>
-          <img className='cursor-pointer' onClick={() => navigate("/")} src="./src/assets/Seta pra Esquerda.png" alt="Botao voltar" />
+          <img className='cursor-pointer' onClick={() => navigate("/")} src="/assets/Seta pra Esquerda.png" alt="Botao voltar" />
           <p className='text-1xl'>Voltar</p>
         </div>
 
@@ -249,14 +249,14 @@ function Home() {
                   <div key={index} className="flex justify-between items-center p-1 border-b">
                     <span className="text-sm">{file.name}</span>
                     <button onClick={() => removeFile(index, 'identidade')}>
-                      <img className='w-[20px] cursor-pointer' src="./src/assets/trash.png" alt="Remover arquivo-" />
+                      <img className='w-[20px] cursor-pointer' src="/assets/trash.png" alt="Remover arquivo-" />
                     </button>
                   </div>
                 ))}
               </div>
             ) : (
               <label htmlFor="arquivo-identidade" className="cursor-pointer">
-                <img src="./src/assets/FileUploadField.png" alt="Ícone de upload" />
+                <img src="/assets/FileUploadField.png" alt="Ícone de upload" />
               </label>
             )}
             {formErros.rg && <p className="campo__erro">{formErros.rg}</p>}
@@ -303,14 +303,14 @@ function Home() {
                   <div key={index} className="flex justify-between items-center p-1 border-b">
                     <span className="text-sm">{file.name}</span>
                     <button onClick={() => removeFile(index, 'residencia')}>
-                      <img className='w-[20px] cursor-pointer' src="./src/assets/trash.png" alt="Remover arquivo-" />
+                      <img className='w-[20px] cursor-pointer' src="/assets/trash.png" alt="Remover arquivo-" />
                     </button>
                   </div>
                 ))}
               </div>
             ) : (
               <label htmlFor="arquivo-residencia" className="cursor-pointer">
-                <img src="./src/assets/FileUploadField.png" alt="Ícone de upload" />
+                <img src="/assets/FileUploadField.png" alt="Ícone de upload" />
               </label>
             )}
             {formErros.residencia && <p className="campo__erro">{formErros.residencia}</p>}
@@ -326,7 +326,7 @@ function Home() {
             <label className="relative flex flex-col items-center border-2 border-gray-300 rounded-lg p-4 cursor-pointer hover:border-[var(--border-bordaTrilha)]">
               <input type="radio" name="trilha" className="hidden peer" onChange={handleChange}/>
               <div className="checkmark"></div>
-              <img src="./src/assets/Logo Front-end.png" alt="Front-end" className="w-12 h-12 mb-2" />
+              <img src="/assets/Logo Front-end.png" alt="Front-end" className="w-12 h-12 mb-2" />
               <p className="font-medium">Programação Front-end</p>
             </label>
 
@@ -334,7 +334,7 @@ function Home() {
             <label className="relative flex flex-col items-center border-2 border-gray-300 rounded-lg p-4 cursor-pointer hover:border-[var(--border-bordaTrilha)]">
               <input type="radio" name="trilha" className="hidden peer" onChange={handleChange}/>
               <div className="checkmark"></div>
-              <img src="./src/assets/Logo Back-end.png" alt="Back-end" className="w-12 h-12 mb-2" />
+              <img src="/assets/Logo Back-end.png" alt="Back-end" className="w-12 h-12 mb-2" />
               <p className="font-medium">Programação Back-end</p>
             </label>
 
@@ -342,7 +342,7 @@ function Home() {
             <label className="relative flex flex-col items-center border-2 border-gray-300 rounded-lg p-4 cursor-pointer hover:border-[var(--border-bordaTrilha)]">
               <input type="radio" name="trilha" className="hidden peer" onChange={handleChange}/>
               <div className="checkmark"></div>
-              <img src="./src/assets/Logo Jogos.png" alt="Jogos" className="w-12 h-12 mb-2" />
+              <img src="/assets/Logo Jogos.png" alt="Jogos" className="w-12 h-12 mb-2" />
               <p className="font-medium">Programação de Jogos</p>
             </label>
 
@@ -350,7 +350,7 @@ function Home() {
             <label className="relative flex flex-col items-center border-2 border-gray-300 rounded-lg p-4 cursor-pointer hover:border-[var(--border-bordaTrilha)]">
               <input type="radio" name="trilha" className="hidden peer" onChange={handleChange}/>
               <div className="checkmark"></div>
-              <img src="./src/assets/Logo UX.png" alt="UX" className="w-12 h-12 mb-2" />
+              <img src="/assets/Logo UX.png" alt="UX" className="w-12 h-12 mb-2" />
               <p className="font-medium">Design e Experiência</p>
             </label>
 
@@ -358,7 +358,7 @@ function Home() {
             <label className="relative flex flex-col items-center border-2 border-gray-300 rounded-lg p-4 cursor-pointer hover:border-[var(--border-bordaTrilha)]">
               <input type="radio" name="trilha" className="hidden peer" onChange={handleChange}/>
               <div className="checkmark"></div>
-              <img src="./src/assets/Logo Dados.png" alt="Ciência de Dados" className="w-12 h-12 mb-2" />
+              <img src="/assets/Logo Dados.png" alt="Ciência de Dados" className="w-12 h-12 mb-2" />
               <p className="font-medium">Ciência de Dados</p>
             </label>
           </div>

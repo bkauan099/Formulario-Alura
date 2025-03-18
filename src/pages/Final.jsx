@@ -8,7 +8,7 @@ function Final() {
     <div className="bg-[#ffffff] flex flex-col justify-center items-center max-w-[1000px] w-full min-h-[500px] mx-auto mt-50 rounded-2xl shadow-lg p-6">
       {/* Logo e Título */}
       <div className="flex flex-col sm:flex-row items-center gap-2 text-center sm:text-left">
-        <img className="w-[50px]" src="./src/assets/checkedVerde.png" alt="Logo" />
+        <img className="w-[50px]" src="/assets/checkedVerde.png" alt="Logo" />
         <h1 className="text-black text-lg md:text-xl lg:text-2xl font-semibold">
           Inscrição Concluida com Sucesso!
         </h1>
